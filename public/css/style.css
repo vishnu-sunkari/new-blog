@@ -1,0 +1,57 @@
+form {
+    margin-top: 50px;
+  }
+  
+  .feedback-input {
+    color: white;
+    font-weight: 300;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border: 2px solid #3586ff;
+    transition: all 0.3s;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 70%;
+    box-sizing: border-box;
+    outline: 0;
+  }
+  
+  .feedback-input:focus {
+    border: 2px solid #10af40;
+  }
+  
+  textarea {
+    height: 150px;
+    line-height: 150%;
+    resize: vertical;
+  }
+  
+  [type="submit"] {
+    width: 70%;
+    background: #3586ff;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 700;
+  }
+  [type="submit"]:hover {
+    background: #3586ff;
+  }
+  
+  .feedback{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 200px;
+  }
+  h1{
+    text-align: center;
+  }

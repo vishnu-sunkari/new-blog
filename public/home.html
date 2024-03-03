@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog : Homepage</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/home.css">
+
+</head>
+<body>
+
+    <nav class="navbar">
+        <h1 class="up"> <img class="radius"   src="img/img6.png" alt="" height="50px" width="50px" > My Blogs</h1>
+     
+        <ul class="links-container">
+            <li class="link-item"><a href="/" class="link">home</a></li>
+            <li class="link-item"><a href="/About" class="link">About</a></li>
+            <li class="link-item"><a href="/Editor" class="link">Editor</a></li>
+            <li class="link-item"><a href="/Contact" class="link">Contact</a></li>
+
+        </ul>
+    </nav>
+
+    <header class="header">
+        <div class="content">
+            <h1 class="heading">
+                <span class="small">welcome in the world of</span>
+                blog
+                <span class="no-fill">writing</span>
+            </h1>
+            <a href="/editor" class="btn">write a blog</a>
+        </div>
+    </header>
+
+    <!-- blog section -->
+    <section class="blogs-section">
+        <div class="blog-card">
+            <img src="img/img3.png" class="blog-image" alt="">
+            <h1 class="blog-title">forestry.</h1>
+            <p class="blog-overview">A forest is an ecosystem characterized by a dense community of trees. Hundreds of definitions of forest are used throughout the world, incorporating factors such as tree density, tree height, land use, legal standing, and ecological function. The United Nations' Food and Agriculture Organization (FAO) defines a forest …</p>
+            <a href="/" class="btn dark">read</a>
+        </div> 
+        <div class="blog-card">
+            <img src="img/img2.png" class="blog-image" alt="">
+            <h1 class="blog-title">Lakes.</h1>
+            <p class="blog-overview">A lake is a naturally occurring, relatively large and fixed body of water on the Earth's surface. It is localized in a basin or interconnected basins surrounded by dry land. Lakes lie completely on land and are separate from the ocean, although, like the much larger oceans, they form part of the Earth's water cycle by serving … </p>
+            <a href="/" class="btn dark">read</a>
+        </div> 
+
+    </section>
+
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-firestore.js"></script>
+
+    <script src="js/firebase.js"></script>
+    <script src="js/home.js"></script>
+    
+</body>
+</html>
